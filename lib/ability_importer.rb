@@ -1,4 +1,5 @@
-class AbilityImporter
+require 'base_importer'
+class AbilityImporter < BaseImporter
   def initialize(hero)
     raise(ArgumentError, "no hero given") unless hero
     raise(ArgumentError, "this is not the hero this city deserves: #{hero.inspect}") unless hero.is_a?(Hero)
@@ -32,12 +33,6 @@ private
 
   def json_abilities
     json['abilities'] || []
-  end
-
-  def json
-    uri = URI(source_uri)
-    raw = Net::HTTP.get(uri)
-    JSON.parse(raw)
   end
 
   def source_uri
