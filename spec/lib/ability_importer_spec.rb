@@ -1,3 +1,4 @@
+require 'rails_helper'
 describe AbilityImporter do
   describe "for an existing Hero" do
     let(:performing) { lambda {
