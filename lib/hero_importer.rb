@@ -1,6 +1,6 @@
-require 'net/http'
+require 'base_importer'
 
-class HeroImporter
+class HeroImporter < BaseImporter
   def perform
     json_data.each do |entry|
       hero! entry
@@ -27,13 +27,7 @@ private
   end
 
   def json_data
-    json['data']
-  end
-
-  def json
-    uri = URI(source_uri)
-    raw = Net::HTTP.get(uri)
-    JSON.parse(raw)
+    json['data'] || {}
   end
 
   def source_uri

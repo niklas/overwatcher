@@ -1,0 +1,1434 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://overwatch-api.net/api/v1/hero/18
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - overwatch-api.net
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 15 Aug 2017 13:35:15 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=df57712daf9e0057531d9100365d28b441502804115; expires=Wed, 15-Aug-18
+        13:35:15 GMT; path=/; domain=.overwatch-api.net; HttpOnly
+      Cache-Control:
+      - no-cache, private
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"fac80b0f46d3efef4cb417586d4231d0"
+      X-Ratelimit-Limit:
+      - '500'
+      X-Ratelimit-Remaining:
+      - '499'
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 38ec893978e12d4d-TXL
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+            "id": 18,
+            "name": "Tracer",
+            "description": "Toting twin pulse pistols, energy-based time bombs, and rapid-fire banter, Tracer is able to \\blink\\\" through space and rewind her personal timeline as she battles to right wrongs the world over.\"\"\"",
+            "health": 150,
+            "armour": 0,
+            "shield": 0,
+            "real_name": "Lena Oxton",
+            "age": 26,
+            "height": 162,
+            "affiliation": "Overwatch",
+            "base_of_operations": "London, England",
+            "difficulty": 2,
+            "url": "https:\/\/overwatch-api.net\/api\/v1\/hero\/18",
+            "role": {
+                "id": 1,
+                "name": "offense"
+            },
+            "sub_roles": [],
+            "abilities": [
+                {
+                    "id": 84,
+                    "name": "Pulse Pistols",
+                    "description": "Tracer rapid-fires both of her pistols.",
+                    "is_ultimate": false,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/ability\/84"
+                },
+                {
+                    "id": 85,
+                    "name": "Blink",
+                    "description": "Tracer zips horizontally through space in the direction she\u2019s moving, and reappears several yards away. She stores up to three charges of the blink ability and generates more every few seconds.",
+                    "is_ultimate": false,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/ability\/85"
+                },
+                {
+                    "id": 86,
+                    "name": "Recall",
+                    "description": "Tracer bounds backward in time, returning her health, ammo and position on the map to precisely where they were a few seconds before.",
+                    "is_ultimate": false,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/ability\/86"
+                },
+                {
+                    "id": 87,
+                    "name": "Pulse Bomb",
+                    "description": "Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius.",
+                    "is_ultimate": true,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/ability\/87"
+                }
+            ],
+            "rewards": [
+                {
+                    "id": 471,
+                    "name": "Blink",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/471",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 472,
+                    "name": "Bombs Away!",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/472",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 473,
+                    "name": "Cavalry's Here",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/473",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 474,
+                    "name": "Cheers",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/474",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 475,
+                    "name": "Cheers, Love",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/475",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 476,
+                    "name": "Clock's Tickin'",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/476",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 477,
+                    "name": "Confident",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/477",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 478,
+                    "name": "Cute",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/478",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 479,
+                    "name": "Fighter",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/479",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 480,
+                    "name": "Icon",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/480",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 481,
+                    "name": "Kneeling",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/481",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 482,
+                    "name": "Lena",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/482",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 483,
+                    "name": "Orange",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/483",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 484,
+                    "name": "Pew! Pew! Pew!",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/484",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 485,
+                    "name": "Pistols",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/485",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 486,
+                    "name": "Pixel",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/486",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 487,
+                    "name": "Portrait",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/487",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 488,
+                    "name": "Poster",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/488",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 489,
+                    "name": "Pulse Bomb",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/489",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 490,
+                    "name": "Ready for Action",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/490",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 491,
+                    "name": "Salute",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/491",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 492,
+                    "name": "Shaded",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/492",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 493,
+                    "name": "Tagged",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/493",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 494,
+                    "name": "Whatcha' Lookin' At?",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/494",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 495,
+                    "name": "Wings",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 25
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/495",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 781,
+                    "name": "You Got It",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/781",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 782,
+                    "name": "Aw, Rubbish",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/782",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 783,
+                    "name": "Be Right Back!",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/783",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 784,
+                    "name": "Check Me Out",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/784",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 785,
+                    "name": "Cheers, Love!",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/785",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 786,
+                    "name": "D\u00c3\u00a9j\u00c3 Vu",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/786",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 787,
+                    "name": "Keep Calm",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/787",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 788,
+                    "name": "She Shoots, She Scores",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/788",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 789,
+                    "name": "The World Needs Heroes",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/789",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 790,
+                    "name": "Under Control",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/790",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 791,
+                    "name": "You Need A Time Out",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 0
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/791",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1027,
+                    "name": "Heroic",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1027",
+                    "type": {
+                        "id": 4,
+                        "name": "victory pose",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/4"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1028,
+                    "name": "Salute",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1028",
+                    "type": {
+                        "id": 4,
+                        "name": "victory pose",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/4"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1029,
+                    "name": "Over The Shoulder",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1029",
+                    "type": {
+                        "id": 4,
+                        "name": "victory pose",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/4"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1030,
+                    "name": "Sitting",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1030",
+                    "type": {
+                        "id": 4,
+                        "name": "victory pose",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/4"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1115,
+                    "name": "Heroic",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1115",
+                    "type": {
+                        "id": 5,
+                        "name": "emote",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/5"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1116,
+                    "name": "Cheer",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1116",
+                    "type": {
+                        "id": 5,
+                        "name": "emote",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/5"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1117,
+                    "name": "Laughing",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1117",
+                    "type": {
+                        "id": 5,
+                        "name": "emote",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/5"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1118,
+                    "name": "Spin",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1118",
+                    "type": {
+                        "id": 5,
+                        "name": "emote",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/5"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1203,
+                    "name": "Heroic",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1203",
+                    "type": {
+                        "id": 6,
+                        "name": "highlight intro",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/6"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1204,
+                    "name": "Serious Business",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1204",
+                    "type": {
+                        "id": 6,
+                        "name": "highlight intro",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/6"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1205,
+                    "name": "Backflip",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1205",
+                    "type": {
+                        "id": 6,
+                        "name": "highlight intro",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/6"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1206,
+                    "name": "Just In Time",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1206",
+                    "type": {
+                        "id": 6,
+                        "name": "highlight intro",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/6"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1414,
+                    "name": "Classic",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1414",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1415,
+                    "name": "Hot Pink",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1415",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1416,
+                    "name": "Electric Purple",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1416",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1417,
+                    "name": "Neon Green",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1417",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1418,
+                    "name": "Royal Blue",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1418",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1419,
+                    "name": "Posh",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1419",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1420,
+                    "name": "Sporty",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 250
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1420",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1421,
+                    "name": "Slipstream",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1421",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1422,
+                    "name": "Punk",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 1000
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1422",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1423,
+                    "name": "Ultraviolet",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 1000
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1423",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1424,
+                    "name": "Mach T",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 1000
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1424",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1425,
+                    "name": "T. Racer",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 1000
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1425",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": null
+                },
+                {
+                    "id": 1488,
+                    "name": "Track",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1488",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 1,
+                        "name": "Summer Games 2016",
+                        "start_date": "2016-08-02",
+                        "end_date": "2016-08-22",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/1"
+                    }
+                },
+                {
+                    "id": 1510,
+                    "name": "Eat My Dust",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1510",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 1,
+                        "name": "Summer Games 2016",
+                        "start_date": "2016-08-02",
+                        "end_date": "2016-08-22",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/1"
+                    }
+                },
+                {
+                    "id": 1562,
+                    "name": "Hurdle",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1562",
+                    "type": {
+                        "id": 6,
+                        "name": "highlight intro",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/6"
+                    },
+                    "quality": {
+                        "name": "epic"
+                    },
+                    "event": {
+                        "id": 1,
+                        "name": "Summer Games 2016",
+                        "start_date": "2016-08-02",
+                        "end_date": "2016-08-22",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/1"
+                    }
+                },
+                {
+                    "id": 1570,
+                    "name": "Sprinter",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1570",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": {
+                        "id": 1,
+                        "name": "Summer Games 2016",
+                        "start_date": "2016-08-02",
+                        "end_date": "2016-08-22",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/1"
+                    }
+                },
+                {
+                    "id": 1571,
+                    "name": "Track and Field",
+                    "cost": null,
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1571",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": {
+                        "id": 1,
+                        "name": "Summer Games 2016",
+                        "start_date": "2016-08-02",
+                        "end_date": "2016-08-22",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/1"
+                    }
+                },
+                {
+                    "id": 1607,
+                    "name": "R.I.P",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 225
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1607",
+                    "type": {
+                        "id": 4,
+                        "name": "victory pose",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/4"
+                    },
+                    "quality": {
+                        "name": "rare"
+                    },
+                    "event": {
+                        "id": 2,
+                        "name": "Halloween Terror",
+                        "start_date": "2016-10-11",
+                        "end_date": "2016-11-01",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/2"
+                    }
+                },
+                {
+                    "id": 1629,
+                    "name": "Ooh, Scary!",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1629",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 2,
+                        "name": "Halloween Terror",
+                        "start_date": "2016-10-11",
+                        "end_date": "2016-11-01",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/2"
+                    }
+                },
+                {
+                    "id": 1651,
+                    "name": "Trick Or Treat",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1651",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 2,
+                        "name": "Halloween Terror",
+                        "start_date": "2016-10-11",
+                        "end_date": "2016-11-01",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/2"
+                    }
+                },
+                {
+                    "id": 1768,
+                    "name": "Jingle",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 3000
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1768",
+                    "type": {
+                        "id": 7,
+                        "name": "skin",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/7"
+                    },
+                    "quality": {
+                        "name": "legendary"
+                    },
+                    "event": {
+                        "id": 3,
+                        "name": "Winter Wonderland",
+                        "start_date": "2016-12-13",
+                        "end_date": "2017-01-02",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/3"
+                    }
+                },
+                {
+                    "id": 1796,
+                    "name": "It's In The Bag",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1796",
+                    "type": {
+                        "id": 2,
+                        "name": "voice line",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/2"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 3,
+                        "name": "Winter Wonderland",
+                        "start_date": "2016-12-13",
+                        "end_date": "2017-01-02",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/3"
+                    }
+                },
+                {
+                    "id": 1837,
+                    "name": "Ornament",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1837",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 3,
+                        "name": "Winter Wonderland",
+                        "start_date": "2016-12-13",
+                        "end_date": "2017-01-02",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/3"
+                    }
+                },
+                {
+                    "id": 1838,
+                    "name": "Snowboarding",
+                    "cost": {
+                        "currency": "credit",
+                        "value": 75
+                    },
+                    "url": "https:\/\/overwatch-api.net\/api\/v1\/reward\/1838",
+                    "type": {
+                        "id": 1,
+                        "name": "spray",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/reward-type\/1"
+                    },
+                    "quality": {
+                        "name": "common"
+                    },
+                    "event": {
+                        "id": 3,
+                        "name": "Winter Wonderland",
+                        "start_date": "2016-12-13",
+                        "end_date": "2017-01-02",
+                        "url": "https:\/\/overwatch-api.net\/api\/v1\/event\/3"
+                    }
+                }
+            ]
+        }
+    http_version: 
+  recorded_at: Tue, 15 Aug 2017 13:35:15 GMT
+recorded_with: VCR 3.0.3

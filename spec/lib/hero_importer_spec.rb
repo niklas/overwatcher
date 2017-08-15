@@ -1,5 +1,4 @@
 require 'rails_helper'
-require "hero_importer"
 describe HeroImporter do
   let(:performing) { lambda {
     VCR.use_cassette 'overwatch_heros_index' do
