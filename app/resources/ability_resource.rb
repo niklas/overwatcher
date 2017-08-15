@@ -1,6 +1,5 @@
 class AbilityResource < JSONAPI::Resource
-  attributes :id,
-             :name,
+  attributes :name,
              :description,
              :is_ultimate
 end

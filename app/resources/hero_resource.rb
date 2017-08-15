@@ -1,6 +1,5 @@
 class HeroResource < JSONAPI::Resource
-  attributes :id,
-             :name,
+  attributes :name,
              :real_name,
              :health,
              :armour,
