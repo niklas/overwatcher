@@ -10,7 +10,7 @@ class HeroImporter
 private
 
   def hero!(entry)
-    Hero.create! entry.slice(*%w[
+    attrs = entry.slice(*%w[
       id
       name
       real_name
@@ -18,6 +18,12 @@ private
       armor
       shield
     ])
+
+    if hero = Hero.find_by(id: entry['id'])
+      hero.update_attributes!(attrs)
+    else
+      Hero.create! attrs
+    end
   end
 
   def json_data

@@ -57,3 +57,4 @@ RSpec.configure do |config|
 end
 
 require 'support/vcr'
+require 'support/factory_girl'
