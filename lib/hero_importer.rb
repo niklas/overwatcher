@@ -15,7 +15,7 @@ private
       name
       real_name
       health
-      armor
+      armour
       shield
     ])
 

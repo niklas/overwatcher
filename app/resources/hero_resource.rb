@@ -3,6 +3,6 @@ class HeroResource < JSONAPI::Resource
              :name,
              :real_name,
              :health,
-             :armor,
+             :armour,
              :shield
 end
